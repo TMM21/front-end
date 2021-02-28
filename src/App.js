@@ -8,8 +8,8 @@ import Home from './pages/home'
 import BookASeat from './pages/BookaSeat'
 import Hirecar from './pages/Hirecar'
 import OneWay from './pages/Oneway'
-import store from './redux/store'
-import {Provider} from 'react-redux'
+// import store from './redux/store'
+// import {Provider} from 'react-redux'
 function App() {
   return (
     <>
@@ -17,13 +17,13 @@ function App() {
          <Nav />
      </main>
        <Switch>
-         <Provider store={store}>
+        
 
            <Route exact path='/' component={Home} />
            <Route exact path='/book_a_seat' component={BookASeat} />
            <Route exact path="/hire_car" component={Hirecar} />
            <Route exact path='/book_a_seat/one_way' component={OneWay} />
-         </Provider>
+     
       </Switch>
    </>
   );
