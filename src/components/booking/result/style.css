@@ -1,0 +1,19 @@
+.input-control{
+    display: block !important;
+}
+.date{
+    /* width:188% !important; */
+    border-radius: .3rem;
+    background-color: #c3c8cc;
+    border-color:transparent;
+    outline: none;
+    height:2rem;
+   
+   width:100%;
+    margin-left: 0;
+}
+@media screen and  (max-width :769px){
+    /* .inp{
+        width:240% !important;
+    } */
+}

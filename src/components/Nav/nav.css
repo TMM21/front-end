@@ -1,0 +1,28 @@
+.logo{
+    width:9rem;
+
+}
+.color{
+    background-color: #50a0ef !important;
+}
+
+@media screen and (max-width:800px){
+    .logo{
+        width:4.5rem
+    }
+}
+.back{
+  background:url('../../asset/images/banner.jpeg');
+  height:10rem;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position:center center;
+  
+    
+}
+.menu{
+    background-color:#50a0ef !important;
+}
+.reg{
+    margin-right: 1rem;
+}

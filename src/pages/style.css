@@ -1,0 +1,88 @@
+/*.....global....*/
+a{
+    text-decoration: none !important;
+    color:white !important;
+    
+}
+  /*end of global....*/
+/*.....home.....*/
+.background{
+    background-image: url('../asset/images/banner.jpeg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center center;
+    height: 40rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.contain{
+    display: flex;
+    align-items: center;
+    margin:.4rem 2rem
+}
+
+.begin{
+    width:80%
+}
+.list{
+    margin: 0 1rem;
+}
+
+
+@media screen and (max-width:769px){
+    .link{
+        font-size:.8rem !important;
+        margin:1rem -1rem;
+    }
+    .contain{
+        margin:.4rem 1rem !important;
+    }
+    .column{
+        width:none !important;
+    }
+    
+}
+@media screen and (max-width:508px){
+    .contain{
+        margin:.4rem -0.3rem !important;
+      
+    }
+    .link{
+        font-size: .5rem !important;
+    }
+}
+
+@media screen and (max-width:453px){
+    .contain{
+        margin:.4rem -0.7rem !important;
+         }
+         .link{
+             font-size: .5rem !important;
+         }
+}
+@media screen and (max-width:373px){
+    .contain{
+        margin:.2rem -1rem !important;
+    }
+}
+@media screen and (max-width:280px){
+    .contain{
+        display: flex;
+        flex-direction: column !important;
+    }
+}
+
+/*....end of home...............*/
+/*....one-way...*/
+.text{
+    font-size:.8rem;
+}
+.main{
+    margin-top: 2rem;
+}
+.space{
+    margin-bottom: 2rem;
+}
+

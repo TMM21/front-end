@@ -1,0 +1,70 @@
+/*.......oneway......*/
+.contain{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 4rem;
+
+}
+
+.select{
+    width:80%;
+    margin:1rem ;
+}
+.depart{
+    width:140%;
+    margin:1rem
+}
+.date{
+    margin-left:1rem;
+   
+   
+}
+
+
+.date-input{
+    border-radius: .3rem;
+    background-color: #c3c8cc;
+    border-color:transparent;
+    outline: none;
+    height:2rem;
+    margin-top:.5rem;
+    margin-left:1rem
+    
+
+
+}
+.passenger{
+    width:100%;
+  margin:.5rem 0 .5rem 1rem;
+
+}
+.text{
+    margin:0 1rem -0.5rem 1rem;
+}
+@media screen and (max-width:769px){
+    .text{
+        font-size: .7rem;
+    }
+    .select{
+        width:100%
+    }
+    .depart{
+        width:170%
+    }
+    .proceed{
+        margin-top:1rem;
+        margin-left:1rem
+    }
+}
+
+
+/*..... end of one way.......*/
+
+/*.....feedback form......*/
+.input{
+    margin-right: 1rem;
+    
+}
+.but{
+    margin-bottom: 2rem;
+}
