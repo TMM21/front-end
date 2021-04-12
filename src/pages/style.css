@@ -85,4 +85,34 @@ a{
 .space{
     margin-bottom: 2rem;
 }
+.form{
+   margin: 0 15rem;
+   background-color:#51a0ef;
+}
+@media screen and (max-width:769px){
+    .form{
+        margin:0 3rem
+    }
+}
+.input{
+    margin:2rem 0 0 1rem;
+    max-width:90%;
+}
+.sub{
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
 
+@media screen and (max-width:400px){
+    .has-validation{
+        width:14rem
+    }
+   
+    .form{
+        width:14rem;
+        margin:0 2rem
+    }
+}
+/* @media screen and (max-width:300px){
+  
+} */
