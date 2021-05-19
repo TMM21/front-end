@@ -4,7 +4,7 @@ const initialState = {
 }
 
 
-export default (state = initialState, {type}) =>{
+export const booking =   (state = initialState, {type}) =>{
     switch(type){
         default :
         return state

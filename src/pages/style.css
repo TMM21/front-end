@@ -99,7 +99,7 @@ a{
     max-width:90%;
 }
 .sub{
-    margin-left: 2rem;
+    margin-left: 2rem  !important;
     margin-bottom: 1rem;
 }
 
@@ -116,3 +116,13 @@ a{
 /* @media screen and (max-width:300px){
   
 } */
+
+.click{
+    margin:0 3rem 0 0 ;
+    cursor: pointer;
+}
+.alert{
+   display: flex;
+   flex-direction:row ;
+   justify-content: space-between;
+}

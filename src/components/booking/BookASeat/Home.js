@@ -2,9 +2,16 @@ import React, { Component } from 'react'
 import OneWay from './oneWay'
 import RoundTrip from './RoundTrip'
 import '../style.css'
+import {withRouter} from 'react-router-dom'
 
-export default class Home extends Component {
+
+ class Home extends Component {
+
+  
     render() {
+        console.log(this.props)
+ 
+     
         return (
             <>        
             <ul className="nav nav-pills mb-3 link" id="pills-tab" role="tablist">
@@ -27,7 +34,7 @@ export default class Home extends Component {
                
             </ul>
             <div className="tab-content" id="pills-tabContent">
-      <div className="tab-pane fade show active" id="pills-homes" role="tabpanel" aria-labelledby="pills-home-tab"><OneWay /></div>
+      <div className="tab-pane fade show active" id="pills-homes" role="tabpanel" aria-labelledby="pills-home-tab"><OneWay  /></div>
       <div className="tab-pane fade" id="pills-profiles" role="tabpanel" aria-labelledby="pills-profile-tab"><RoundTrip /></div>
      
     </div>
@@ -36,3 +43,7 @@ export default class Home extends Component {
         )
     }
 }
+
+export default withRouter(Home)
+
+

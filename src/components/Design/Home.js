@@ -5,12 +5,14 @@ import Feedback from './Feedback'
 import Footer from './Footer'
 import './style.css'
 
+
 function Home() {
     return (
         <>
             <Segment />
             <Article />
             <Feedback />
+         
             <Footer />
         </>
     )

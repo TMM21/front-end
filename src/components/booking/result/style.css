@@ -1,19 +1,88 @@
-.input-control{
-    display: block !important;
+.input-control {
+  display: block !important;
 }
-.date{
-    /* width:188% !important; */
-    border-radius: .3rem;
-    background-color: #c3c8cc;
-    border-color:transparent;
-    outline: none;
-    height:2rem;
-   
-   width:100%;
-    margin-left: 0;
+.date {
+  /* width:188% !important; */
+  border-radius: 0.3rem;
+  background-color: #c3c8cc;
+  border-color: transparent;
+  outline: none;
+  height: 2rem;
+
+  width: 100%;
+  margin-left: 0;
 }
-@media screen and  (max-width :769px){
-    /* .inp{
+@media screen and (max-width: 769px) {
+  /* .inp{
         width:240% !important;
     } */
+}
+.one,
+.two,
+.three,
+.four,
+.five,
+.six {
+  position: absolute;
+  top: 52px;
+  left: 64px;
+}
+.two,
+.three {
+  left: 10rem;
+}
+.three,
+.six {
+  top: 11rem;
+}
+.four,
+.five,
+.six {
+  left: 17rem;
+}
+.five {
+  top: 7em;
+}
+.type {
+  font-size: 1.2rem !important;
+  margin: 0;
+}
+.route {
+  font-size: 1rem;
+  margin-top: 0.3rem;
+  margin-bottom: 0;
+  padding: 0;
+}
+.ac {
+  margin-top: 0 !important;
+  margin-right: 0.5rem !important;
+}
+.seat {
+  width: 2rem;
+}
+.price {
+  color: green;
+}
+
+@media screen and (max-width: 769px) {
+  .route {
+    font-size: 0.8rem;
+    margin-bottom: 0;
+  }
+  /* .type {
+    font-size: 5rem;
+  } */
+}
+
+/* .icon, .icons{
+    position:absolute;
+    right:0;
+    top:0
+}
+.icons{
+    top:3rem
+} */
+
+.car {
+  width: 6rem;
 }

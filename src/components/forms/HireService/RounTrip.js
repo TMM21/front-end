@@ -34,7 +34,7 @@ export default class RoundTrip extends Component {
     
     
     render() {
-        console.log(new Date(this.state.startDate));
+      
         return (
             <>
             <div className="container-fluid">
