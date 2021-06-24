@@ -41,7 +41,7 @@ class oneWayForm extends Component {
     const { routeId, startDate, passenger, departureTerminal } = this.state
     const data = {
       routeId,
-      TravelDate: dayjs(startDate).format('YYYY-MM-DD'),
+      travelDate: dayjs(startDate).format('YYYY-MM-DD'),
       passenger,
     }
     if (
@@ -216,6 +216,7 @@ class oneWayForm extends Component {
                   type="button"
                   className=" pro btn btn-primary button mt-4"
                   onClick={this.handleProceed}
+                  disabled={loading}
                 >
                   {' '}
                   Proceed{' '}

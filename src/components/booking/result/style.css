@@ -22,27 +22,33 @@
 .three,
 .four,
 .five,
-.six {
+.six,
+.seven {
   position: absolute;
   top: 52px;
   left: 64px;
 }
 .two,
-.three {
+.three,
+.four,
+.six {
   left: 10rem;
 }
-.three,
-.six {
-  top: 11rem;
-}
-.four,
 .five,
-.six {
+.six,
+.seven {
   left: 17rem;
 }
-.five {
-  top: 7em;
+
+.three,
+.six {
+  top: 8.5rem;
 }
+.four,
+.seven {
+  top: 13.5rem;
+}
+
 .type {
   font-size: 1.2rem !important;
   margin: 0;
@@ -58,9 +64,24 @@
   margin-right: 0.5rem !important;
 }
 .seat {
-  width: 2rem;
+  width: 1.5rem;
+}
+.available {
+  background: green;
+}
+.booked {
+  background: grey;
+}
+.selected {
+  background: blue;
 }
 .price {
+  color: green;
+}
+.booked {
+  color: grey;
+}
+.selected {
   color: green;
 }
 
